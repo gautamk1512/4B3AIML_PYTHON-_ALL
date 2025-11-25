@@ -1,0 +1,242 @@
+Python
+Python Programming Mastery: Build Versatile, Future-Ready Applications
+An interactive industry-oriented training program by
+C O
+OURSE UTCOMES
+This Python Programming training course comprehensively covers the fundamentals,
+advanced concepts, and practical applications of Python. By the end of the course,
+participants will be equipped to write efficient Python code, manipulate data
+structures, develop object-oriented applications, and handle errors effectively.
+1
+2
+Master Fundamentals of Python: Efficient Data Management
+Gain a solid understanding of Learn to effectively use Python
+Python, including its history, tokens, variables, and data types,
+syntax, and essential programming and master I/O operations for
+constructs to build a strong seamless data management and
+foundation in coding. processing.
+3 4
+Control Structures and Operators Function Utilization & Recursion
+Understand and implement Develop proficiency in defining
+Python's control statements, and using functions, including
+loops, and various operators to parameter passing, recursion,
+manage program flow and perform decorators, and generators to
+advanced logical operations. create modular, reusable code.
+5 6
+Structured Data Handling File Handling & Error Management
+Learn to manipulate complex data Acquire skills in file I/O operations
+structures, such as lists, tuples, and handling exceptions with
+dictionaries, and sets, enabling Python’s robust error management
+you to organize and handle data features to develop resilient and
+efficiently. performance-driven applications.
+Page 2 of 9
+W P ?
+HY YTHON
+1. High Demand for Python Developers: Python is one of the most in-demand
+programming languages globally, with rising demand across many sectors. In
+India, the IT industry needs over 1.5 lakh Python developers annually due to its
+widespread use in web development, data science, AI, and automation.
+2. Core Industry Language: Python powers many modern applications, including
+web frameworks, data analytics, machine learning, and automation. With the
+expanding global software market, Python proficiency ensures career
+opportunities, especially in the finance, healthcare, and technology sectors.
+3. Competitive Salaries: Python developers in India enjoy competitive salaries.
+Entry-level positions offer between INR 5 to 12 lakhs annually, while experienced
+developers can earn up to INR 20-30 lakhs. Senior roles like Data Scientist or AI
+Engineer can exceed INR 30 lakhs per annum.
+4. Career Advancement: Mastering Python is essential for roles like Data Scientist,
+AI Engineer, and Full Stack Developer. Over 70% of job postings in data science,
+web development, and automation require Python skills, making it critical for
+career progression.
+5. Industry Relevance: Python is widely used by top tech companies for web apps,
+automation, and AI. Its versatility and efficiency make it relevant in tech,
+finance, and healthcare sectors, ensuring ongoing demand for skilled Python
+developers.
+6. Versatile Skill Set: Learning Python gives you the flexibility to work in diverse
+areas like web development, machine learning, and automation. Over 80% of
+roles in these fields require Python proficiency, highlighting its critical
+importance in the job market.
+7. Foundation for Emerging Technologies: Python is foundational for exploring
+emerging technologies like AI, machine learning, and data analytics. Its
+simplicity and versatility make it perfect for developers entering innovative
+fields, ensuring your skills remain relevant for future industry trends.
+Page 3 of 9
+Python
+T C
+ABLE OF ONTENT
+Topic 01: Introduction
+– Python Introduction
+– History of Python
+– Features of Python
+– Python versions
+– Setting up Python
+Topic 02: Variables and Tokens
+– Python Identifiers
+– Python Data Types
+– Python Comments
+– Operators
+– Keywords
+– Operators Precedence
+– Type conversion
+Topic 03: Input/Output
+– I/O in Python
+– Input functions- input()
+– Output functions-print()
+– Expressions
+Topic 04: Operators
+– Arithmetic Operators
+– Comparison Operators
+– Assignment Operators
+– Bitwise Operators
+– Logical Operators
+– Membership Operators
+– Identity Operators
+– Operators Precedence
+Page 4 of 9
+Python
+Topic 05: Control statements
+– Conditional Statements
+– Iterative Statements
+– unconditional Statements
+Topic 06: Numbers
+– Decimal Systems
+– Binary Systems
+– Octal Systems
+– Hexadecimal Systems
+– Conversion between Number Systems
+Topic 07: Lists
+– Python lists
+– List methods
+– List Operations
+– Built-in List Functions
+– List Comprehensions
+Topic 08: Strings
+– Python String
+– String Concatenation
+– String Comparison
+– Substring Operations
+– String Buffer
+– String Builder
+– toString method
+– Built-in String Methods
+– String Formatting
+Topic 09: Tuples
+– Python Tuples
+– Tuple Methods
+– Tuple Operations
+– Tuple unpacking
+– Built-in Tuple Functions
+Page 5 of 9
+Python
+Topic 10: Dictionary
+– Python Dictionary
+– Dictionary methods
+– Dictionary Operations
+– Built-in Dictionary Functions
+– Dictionary comprehensions
+Topic 11: Sets
+– Python Sets
+– Set methods
+– Set Operations
+– Built-in Set Functions
+– Sets Comprehensions
+Topic 12: Functions
+– Python Functions
+– Parameters and Arguments
+– Keyword Arguments
+– Default Arguments
+– Variable-length Arguments
+– Anonymous Functions
+– Fruitful Functions
+– Global and Local Variables
+– Recursion
+– Decorators
+– Generators and Iterators
+– Closures and Higher-Order Functions
+Topic 13: Modules
+– Creation modules
+– Import Statements
+– From import statements
+– Module alias
+– Namespaces
+Page 6 of 9
+Python
+Topic 14: Python Packages
+– Creation packages
+– Importing packages
+– PIP
+– Installing packages via PIP
+Topic 15: File Handling
+– Opening Files
+– Reading Files
+– Writing Files
+– File Operations
+Topic 16: OOPs Introduction
+– Python OOP’s Concepts
+– Naming Convention
+– Object and Class
+– Class Attributes
+Topic 17: Methods
+– Methods
+– Special Methods
+– Self Variable
+Topic 18: Keywords and Constructor
+– Constructor
+– Default argument in Constructors
+– Static keyword
+– this Keyword
+Topic 19: Inheritance
+– Types of Inheritance
+– Method Resolution Order(MRO)
+Topic 20: Polymorphism
+– Python Polymorphism
+– Operator Overloading
+– Method Overriding
+Page 7 of 9
+Python
+Topic 21: Abstraction
+– Abstraction
+– Abstract Classes
+Topic 22: Access Modifiers and Encapsulation
+– Encapsulation
+– Access Modifiers
+– Public
+– Private
+– Protected
+Topic 23: Polymorphism
+– Python Polymorphism
+– Method Overloading
+– Method Overriding
+– Super keyword
+Topic 24: Types of Errors
+– Syntax errors
+– Runtime errors
+– Logical errors
+Topic 25: Errors and Exceptions Handling
+– Python Exceptions Handling
+– Types of Exceptions
+– Try/Except/Else/Finally block
+– Try-finally clause
+– Raising Exceptions
+– Custom Exception
+Topic 26: Standard Library
+– Math Module
+– String Pattern Matching
+– Dates and Times
+End of Table of Content
+CodeTantra reserves the right to amend the training content if required without
+any prior notice.
+Page 8 of 9
+Thank You for Considering Us!
+We are excited about the possibility of partnering with you
+for this training program. Our commitment to delivering
+high-quality training experiences ensures that every
+participant will gain valuable skills and knowledge.
+Happy to train…
+At CodeTantra, we believe in empowering individuals
+through exceptional training programs. We're dedicated to
+fostering a learning environment where everyone can thrive
+and achieve their best.
+www.CodeTantra.com
+sales@codetantra.com
+Hyderabad, Telangana, 500072
