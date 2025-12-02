@@ -49,3 +49,11 @@ print("""
     <p>{{ post.content }}</p>
 {% endfor %}
 """)
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a view function `about(request)` that renders `about.html`.
+# 2. Add a URL pattern in `urls.py` to map `/about/` to the `about` view.
+# 3. In a Django template, how would you display the value of a variable named `username`?
+# 4. Write a loop in Django Template Language to display a list of items: `['Apple', 'Banana', 'Cherry']`.

@@ -39,3 +39,11 @@ try:
 
 except ImportError:
     print("Flask not installed. Please run: pip install flask")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a Flask app with a route `/about` that returns "About Page".
+# 2. Modify the home route to return an HTML `<h1>Welcome</h1>` tag instead of plain text.
+# 3. (Conceptual) What is the purpose of a virtual environment?
+# 4. (Conceptual) How do you enable debug mode in Flask?

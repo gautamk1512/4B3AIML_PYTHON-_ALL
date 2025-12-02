@@ -45,3 +45,11 @@ print(f"Reading from {filename}:")
 with open(filename, "r") as file:
     content = file.read()
     print(content)
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Write a Python program that asks for an integer input and handles the `ValueError` if the user enters a string.
+# 2. Write a program that attempts to open a non-existent file and handles the `FileNotFoundError`.
+# 3. Create a file named `notes.txt`, write 3 lines of text to it, and then read and print the content.
+# 4. Modify the previous program to append a new line to `notes.txt` without overwriting existing content.

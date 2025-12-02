@@ -40,3 +40,11 @@ greeting = "Hello, " + name
 # 5. Output Results
 print(f"In 5 years, {name} will be {future_age} years old.")
 print(greeting)
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a variable `city` with the name of your city and print it.
+# 2. Create two variables `a = 10` and `b = 20`. Swap their values and print them.
+# 3. Convert the float `9.8` to an integer and print the type of the result.
+# 4. Create a boolean variable `is_raining` and set it to False. Print its type.

@@ -48,3 +48,11 @@ print(f"Response: {response.json()}")
 # 4. DELETE
 response = requests.delete(update_url)
 print(f"\nDELETE Status: {response.status_code}")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Use Python `requests` to send a GET request to `https://api.github.com` and print the JSON response.
+# 2. Write a script to POST JSON data `{"name": "John", "job": "Developer"}` to `https://reqres.in/api/users`.
+# 3. Modify your script to check if the status code is 201 (Created) before printing the response.
+# 4. (Conceptual) Why is the DELETE method considered "idempotent"?

@@ -67,3 +67,11 @@ try:
 
 except ImportError:
     print("Flask-Login not installed. Run: pip install flask-login")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Implement a `User` class that accepts `username` and `password` in its constructor.
+# 2. Create a route `/admin` that is protected by `@login_required`.
+# 3. (Conceptual) What does the `load_user` function do in Flask-Login?
+# 4. (Conceptual) Why should you use a WSGI server like Gunicorn for deployment instead of `app.run()`?

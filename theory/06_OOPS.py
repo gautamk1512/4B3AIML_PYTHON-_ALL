@@ -65,3 +65,11 @@ class Circle(Shape):
 
 c = Circle(5)
 print(f"\nAbstraction Area: {c.area()}")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a class `Person` with attributes `name` and `age`. Create an object and print its attributes.
+# 2. Create a class `BankAccount` with a private attribute `_balance`. Add methods to deposit and withdraw money.
+# 3. Create a base class `Vehicle` and a derived class `Bike` that inherits from `Vehicle`.
+# 4. Demonstrate polymorphism by creating two classes `Bird` and `Airplane` that both have a `fly()` method.

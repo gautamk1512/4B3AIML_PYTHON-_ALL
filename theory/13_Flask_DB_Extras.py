@@ -70,3 +70,11 @@ try:
 
 except ImportError:
     print("Flask not installed.")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a route that flashes an error message "Invalid Password" and redirects to a login page.
+# 2. Write a custom error handler for 500 (Internal Server Error).
+# 3. (Conceptual) Which Flask extension is commonly used for database ORM?
+# 4. (Conceptual) Why is a `secret_key` required for flash messages?

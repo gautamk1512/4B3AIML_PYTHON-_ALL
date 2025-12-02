@@ -67,3 +67,11 @@ mycol = mydb["customers"]
 x = mycol.find_one()
 print(x)
 """
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. (Conceptual) What is the Git command to check the status of your files?
+# 2. Write a PyTest function `test_sub()` to test a `subtract(a, b)` function.
+# 3. (Conceptual) Which Python library is commonly used to connect to a MySQL database?
+# 4. (Conceptual) What is the difference between SQL (like MySQL) and NoSQL (like MongoDB)?

@@ -41,3 +41,11 @@ DATABASES = {
     }
 }
 """
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. (Conceptual) What is the command to create a new Django app named `store`?
+# 2. (Conceptual) In which file do you register your installed apps?
+# 3. (Conceptual) What is the purpose of `manage.py`?
+# 4. Create a new Django project `my_portfolio` and run the server.

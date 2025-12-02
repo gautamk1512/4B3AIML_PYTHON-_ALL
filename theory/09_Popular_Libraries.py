@@ -40,3 +40,11 @@ except ImportError:
 # 3. Game Dev (Conceptual)
 print("\nFor Game Dev, use Pygame:")
 print("import pygame\npygame.init()\n# Game loop code...")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. (Conceptual) What command do you run in the terminal to install the `pandas` library?
+# 2. Use `numpy` to create a 2x2 matrix of ones.
+# 3. Use `pandas` to create a Series from a list of numbers `[10, 20, 30]`.
+# 4. (Conceptual) Name three Python libraries used for data science.

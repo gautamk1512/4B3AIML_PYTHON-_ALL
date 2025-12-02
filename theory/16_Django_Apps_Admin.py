@@ -44,3 +44,11 @@ admin.site.register(Post)
 """)
 
 print("\nTo access admin: Run server and go to http://127.0.0.1:8000/admin")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a Django model `Product` with fields `name` (CharField) and `price` (DecimalField).
+# 2. Register the `Product` model in `admin.py` so it appears in the Admin interface.
+# 3. (Conceptual) How do you create a superuser to access the Django Admin?
+# 4. (Conceptual) What method should you override in a model to return a readable string representation?

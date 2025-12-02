@@ -45,3 +45,11 @@ student = {
 print(f"Student Name: {student['name']}")
 student["grade"] = "A"  # Add new pair
 print(f"Updated Dict: {student}")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a list of 5 favorite fruits. Add "Mango" to the list and print it.
+# 2. Create a tuple with 3 numbers. Try to change the first number and observe the error.
+# 3. Given two sets `A = {1, 2, 3, 4}` and `B = {3, 4, 5, 6}`, find the intersection.
+# 4. Create a dictionary representing a car (brand, model, year). Print the car's model.

@@ -53,3 +53,11 @@ print("""
 {% load static %}
 <link rel="stylesheet" href="{% static 'css/style.css' %}">
 """)
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a `ModelForm` for a `Contact` model with fields `name` and `email`.
+# 2. Write a view function that processes a form submission and saves the data if valid.
+# 3. (Conceptual) What template tag must you load to use static files (like CSS) in a template?
+# 4. (Conceptual) Why must you set `DEBUG = False` when deploying to production?

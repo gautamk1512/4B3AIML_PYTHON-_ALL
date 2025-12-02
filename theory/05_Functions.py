@@ -43,3 +43,11 @@ print(f"Max: {max(numbers)}")
 print(f"Min: {min(numbers)}")
 print(f"Sum: {sum(numbers)}")
 print(f"Length: {len(numbers)}")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Write a function `square(n)` that takes a number and returns its square.
+# 2. Write a function `is_even(n)` that returns True if the number is even, otherwise False.
+# 3. Write a function that takes two arguments, `name` and `age`, and prints a message.
+# 4. Use the built-in `max()` function to find the largest number in `[5, 12, 8, 21, 3]`.

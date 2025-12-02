@@ -43,3 +43,11 @@ Content-Type: application/json
     "status": "success"
 }
 """)
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. (Conceptual) What does "Stateless" mean in the context of REST?
+# 2. (Conceptual) Which HTTP method is commonly used to update an existing resource?
+# 3. (Conceptual) What status code represents "Resource Not Found"?
+# 4. (Conceptual) Explain the difference between `Authentication` and `Authorization`.

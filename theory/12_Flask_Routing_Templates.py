@@ -53,3 +53,11 @@ try:
 
 except ImportError:
     print("Flask not installed.")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Create a route `/square/<int:number>` that takes a number from the URL and returns its square.
+# 2. Create a contact form with fields "Email" and "Message". Handle the POST request to print the data.
+# 3. (Conceptual) What is the difference between GET and POST methods?
+# 4. (Conceptual) Where should you place your CSS files in a Flask project?

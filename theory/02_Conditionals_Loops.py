@@ -51,3 +51,11 @@ for i in range(1, 11):
     if i % 2 == 0:
         continue  # Skip even numbers
     print(f"Odd number: {i}")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Write a program to check if a user's age is greater than 18. Print "Adult" or "Minor".
+# 2. Use a for loop to print the multiplication table of 5 (5, 10, 15... 50).
+# 3. Write a while loop that keeps asking the user for input until they type "stop".
+# 4. Use a loop to sum all numbers from 1 to 100.

@@ -45,3 +45,11 @@ from my_package import module1
 module1.my_function()
 """
 print("\n(Custom package structure explained in comments)")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Import the `datetime` module and print the current date and time.
+# 2. Create a Python file named `my_math.py` with a function `add(x, y)`. Import it into another file and use the function.
+# 3. Use the `random` module to simulate a dice roll (generate a number between 1 and 6).
+# 4. Import only the `pi` constant from the `math` module and print its value.

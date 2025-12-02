@@ -40,3 +40,11 @@ lang = "Python"
 version = 3.12
 info = f"{lang} version {version} is powerful."
 print(f"\nFormatted Info: {info}")
+
+# ---------------------------------------------------------
+# Practice Questions
+# ---------------------------------------------------------
+# 1. Given the string "Hello World", print the last character using negative indexing.
+# 2. Convert the string "python is fun" to Title Case (first letter of each word capitalized).
+# 3. Check if the string "radar" is a palindrome (reads the same forwards and backwards).
+# 4. Take a sentence from the user and count how many times the letter 'e' appears.
