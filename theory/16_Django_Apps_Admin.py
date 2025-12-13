@@ -52,3 +52,26 @@ print("\nTo access admin: Run server and go to http://127.0.0.1:8000/admin")
 # 2. Register the `Product` model in `admin.py` so it appears in the Admin interface.
 # 3. (Conceptual) How do you create a superuser to access the Django Admin?
 # 4. (Conceptual) What method should you override in a model to return a readable string representation?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Product Model
+print("""
+class Product(models.Model):
+    name = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
+
+    def __str__(self):
+        return self.name
+""")
+
+# 2. Register Model
+print("admin.site.register(Product)")
+
+# 3. Create Superuser
+print("Command: python manage.py createsuperuser")
+
+# 4. String Representation
+print("Method: __str__(self)")
+

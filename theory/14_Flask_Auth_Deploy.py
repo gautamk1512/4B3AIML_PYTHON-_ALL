@@ -75,3 +75,25 @@ except ImportError:
 # 2. Create a route `/admin` that is protected by `@login_required`.
 # 3. (Conceptual) What does the `load_user` function do in Flask-Login?
 # 4. (Conceptual) Why should you use a WSGI server like Gunicorn for deployment instead of `app.run()`?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. User Class
+class User:
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
+
+# 2. Admin Route
+# @app.route('/admin')
+# @login_required
+# def admin():
+#     return "Admin Panel"
+
+# 3. Load User
+print("load_user: Retrieves a user object from the DB based on the stored user ID in the session.")
+
+# 4. Deployment
+print("WSGI (Gunicorn) is production-ready, handles multiple requests/concurrency better, and is more secure than the development server.")
+

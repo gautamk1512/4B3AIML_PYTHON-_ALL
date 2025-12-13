@@ -59,3 +59,33 @@ for i in range(1, 11):
 # 2. Use a for loop to print the multiplication table of 5 (5, 10, 15... 50).
 # 3. Write a while loop that keeps asking the user for input until they type "stop".
 # 4. Use a loop to sum all numbers from 1 to 100.
+
+# ---------------------------------------------------------
+# Solutions
+# ---------------------------------------------------------
+print("\n--- Practice Solutions ---")
+
+# 1. Age Check
+age = int(input("Enter your age: "))
+if age > 18:
+    print("Adult")
+else:
+    print("Minor")
+
+# 2. Multiplication Table
+print("\nTable of 5:")
+for i in range(1, 11):
+    print(f"5 x {i} = {5 * i}")
+
+# 3. While Loop (Input)
+print("\nType 'stop' to end:")
+while True:
+    user_input = input("Input: ")
+    if user_input.lower() == "stop":
+        break
+
+# 4. Sum 1 to 100
+total = 0
+for i in range(1, 101):
+    total += i
+print(f"\nSum of 1 to 100 is: {total}")

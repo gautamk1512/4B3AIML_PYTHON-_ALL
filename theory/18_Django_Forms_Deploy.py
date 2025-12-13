@@ -61,3 +61,31 @@ print("""
 # 2. Write a view function that processes a form submission and saves the data if valid.
 # 3. (Conceptual) What template tag must you load to use static files (like CSS) in a template?
 # 4. (Conceptual) Why must you set `DEBUG = False` when deploying to production?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Contact Form
+print("""
+class ContactForm(forms.ModelForm):
+    class Meta:
+        model = Contact
+        fields = ['name', 'email']
+""")
+
+# 2. View Processing
+print("""
+def contact(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('success')
+""")
+
+# 3. Static Tag
+print("{% load static %}")
+
+# 4. Debug False
+print("Security: To prevent exposing sensitive error information and stack traces to users.")
+

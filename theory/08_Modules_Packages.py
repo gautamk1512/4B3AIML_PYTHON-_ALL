@@ -53,3 +53,27 @@ print("\n(Custom package structure explained in comments)")
 # 2. Create a Python file named `my_math.py` with a function `add(x, y)`. Import it into another file and use the function.
 # 3. Use the `random` module to simulate a dice roll (generate a number between 1 and 6).
 # 4. Import only the `pi` constant from the `math` module and print its value.
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. DateTime
+import datetime
+print(f"Current Date/Time: {datetime.datetime.now()}")
+
+# 2. Custom Module (Assuming my_math.py exists with add(x,y))
+# To test this, ensure my_math.py is in the same directory
+try:
+    import my_math
+    print(f"2 + 3 = {my_math.add(2, 3)}")
+except ImportError:
+    print("my_math.py not found. Please create it first.")
+
+# 3. Dice Roll
+import random
+print(f"Dice roll: {random.randint(1, 6)}")
+
+# 4. Import Pi
+from math import pi
+print(f"PI: {pi}")
+

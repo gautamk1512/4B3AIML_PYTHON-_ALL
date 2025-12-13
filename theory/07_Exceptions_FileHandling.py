@@ -53,3 +53,36 @@ with open(filename, "r") as file:
 # 2. Write a program that attempts to open a non-existent file and handles the `FileNotFoundError`.
 # 3. Create a file named `notes.txt`, write 3 lines of text to it, and then read and print the content.
 # 4. Modify the previous program to append a new line to `notes.txt` without overwriting existing content.
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. ValueError Handling
+try:
+    val = int(input("Enter an integer: "))
+    print(f"You entered: {val}")
+except ValueError:
+    print("That's not an integer!")
+
+# 2. FileNotFoundError
+try:
+    with open("non_existent_file.txt", "r") as f:
+        print(f.read())
+except FileNotFoundError:
+    print("File not found!")
+
+# 3. Write and Read
+with open("notes.txt", "w") as f:
+    f.write("Line 1\nLine 2\nLine 3\n")
+
+with open("notes.txt", "r") as f:
+    print("Reading notes.txt:\n" + f.read())
+
+# 4. Append
+with open("notes.txt", "a") as f:
+    f.write("Appended Line 4\n")
+
+print("After append:")
+with open("notes.txt", "r") as f:
+    print(f.read())
+

@@ -78,3 +78,24 @@ except ImportError:
 # 2. Write a custom error handler for 500 (Internal Server Error).
 # 3. (Conceptual) Which Flask extension is commonly used for database ORM?
 # 4. (Conceptual) Why is a `secret_key` required for flash messages?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Flash Error
+# @app.route('/check-login')
+# def check_login():
+#     flash("Invalid Password")
+#     return redirect(url_for('login'))
+
+# 2. 500 Handler
+# @app.errorhandler(500)
+# def internal_error(e):
+#     return "<h1>500 - Server Error</h1>", 500
+
+# 3. ORM Extension
+print("ORM Extension: Flask-SQLAlchemy")
+
+# 4. Secret Key
+print("Required for signing session cookies to prevent tampering.")
+

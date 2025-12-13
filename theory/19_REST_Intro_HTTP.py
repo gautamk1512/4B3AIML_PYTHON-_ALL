@@ -51,3 +51,20 @@ Content-Type: application/json
 # 2. (Conceptual) Which HTTP method is commonly used to update an existing resource?
 # 3. (Conceptual) What status code represents "Resource Not Found"?
 # 4. (Conceptual) Explain the difference between `Authentication` and `Authorization`.
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Stateless
+print("Stateless: The server does not keep track of the client's state between requests. Each request must contain all necessary info.")
+
+# 2. Update Method
+print("Method: PUT (for full update) or PATCH (for partial update).")
+
+# 3. Not Found Code
+print("Status Code: 404")
+
+# 4. Auth vs Auth
+print("Authentication: Verifying identity (Who are you?).")
+print("Authorization: Verifying permissions (What can you do?).")
+

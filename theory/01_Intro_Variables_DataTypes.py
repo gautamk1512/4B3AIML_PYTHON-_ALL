@@ -48,3 +48,27 @@ print(greeting)
 # 2. Create two variables `a = 10` and `b = 20`. Swap their values and print them.
 # 3. Convert the float `9.8` to an integer and print the type of the result.
 # 4. Create a boolean variable `is_raining` and set it to False. Print its type.
+
+# ---------------------------------------------------------
+# Solutions
+# ---------------------------------------------------------
+print("\n--- Practice Solutions ---")
+
+# 1. City Variable
+city = "New York"
+print(f"City: {city}")
+
+# 2. Swapping Variables
+a = 10
+b = 20
+a, b = b, a
+print(f"Swapped: a={a}, b={b}")
+
+# 3. Float to Integer
+num_float = 9.8
+num_int = int(num_float)
+print(f"Converted: {num_int}, Type: {type(num_int)}")
+
+# 4. Boolean Type
+is_raining = False
+print(f"Is raining: {is_raining}, Type: {type(is_raining)}")

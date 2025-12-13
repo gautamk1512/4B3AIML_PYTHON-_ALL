@@ -48,3 +48,29 @@ print("import pygame\npygame.init()\n# Game loop code...")
 # 2. Use `numpy` to create a 2x2 matrix of ones.
 # 3. Use `pandas` to create a Series from a list of numbers `[10, 20, 30]`.
 # 4. (Conceptual) Name three Python libraries used for data science.
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Install Command
+print("Command to install pandas: pip install pandas")
+
+# 2. NumPy Ones
+try:
+    import numpy as np
+    ones_matrix = np.ones((2, 2))
+    print(f"2x2 Ones Matrix:\n{ones_matrix}")
+except ImportError:
+    print("NumPy not installed")
+
+# 3. Pandas Series
+try:
+    import pandas as pd
+    s = pd.Series([10, 20, 30])
+    print(f"Pandas Series:\n{s}")
+except ImportError:
+    print("Pandas not installed")
+
+# 4. Data Science Libraries
+print("Three DS libraries: NumPy, Pandas, Matplotlib")
+

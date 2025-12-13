@@ -49,3 +49,19 @@ DATABASES = {
 # 2. (Conceptual) In which file do you register your installed apps?
 # 3. (Conceptual) What is the purpose of `manage.py`?
 # 4. Create a new Django project `my_portfolio` and run the server.
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Create App
+print("Command: python manage.py startapp store")
+
+# 2. Register Apps
+print("File: settings.py (INSTALLED_APPS list)")
+
+# 3. manage.py
+print("Purpose: CLI utility to interact with the Django project (run server, make migrations, etc.).")
+
+# 4. New Project
+print("Commands:\n1. django-admin startproject my_portfolio\n2. cd my_portfolio\n3. python manage.py runserver")
+

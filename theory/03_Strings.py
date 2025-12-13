@@ -48,3 +48,26 @@ print(f"\nFormatted Info: {info}")
 # 2. Convert the string "python is fun" to Title Case (first letter of each word capitalized).
 # 3. Check if the string "radar" is a palindrome (reads the same forwards and backwards).
 # 4. Take a sentence from the user and count how many times the letter 'e' appears.
+
+# ---------------------------------------------------------
+# Solutions
+# ---------------------------------------------------------
+print("\n--- Practice Solutions ---")
+
+# 1. Negative Indexing
+s = "Hello World"
+print(f"Last char: {s[-1]}")
+
+# 2. Title Case
+s2 = "python is fun"
+print(f"Title Case: {s2.title()}")
+
+# 3. Palindrome Check
+s3 = "radar"
+is_palindrome = s3 == s3[::-1]
+print(f"Is 'radar' a palindrome? {is_palindrome}")
+
+# 4. Count 'e'
+sentence = input("Enter a sentence: ")
+count = sentence.count('e')
+print(f"Occurrences of 'e': {count}")

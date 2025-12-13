@@ -53,3 +53,33 @@ print(f"Updated Dict: {student}")
 # 2. Create a tuple with 3 numbers. Try to change the first number and observe the error.
 # 3. Given two sets `A = {1, 2, 3, 4}` and `B = {3, 4, 5, 6}`, find the intersection.
 # 4. Create a dictionary representing a car (brand, model, year). Print the car's model.
+
+# ---------------------------------------------------------
+# Solutions
+# ---------------------------------------------------------
+print("\n--- Practice Solutions ---")
+
+# 1. List
+fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+fruits.append("Mango")
+print(f"Fruits: {fruits}")
+
+# 2. Tuple
+nums = (1, 2, 3)
+try:
+    nums[0] = 10
+except TypeError as e:
+    print(f"Tuple Error: {e}")
+
+# 3. Set Intersection
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+print(f"Intersection: {A.intersection(B)}")
+
+# 4. Dictionary
+car = {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022
+}
+print(f"Car Model: {car['model']}")

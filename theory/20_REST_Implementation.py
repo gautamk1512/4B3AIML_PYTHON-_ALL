@@ -56,3 +56,24 @@ print(f"\nDELETE Status: {response.status_code}")
 # 2. Write a script to POST JSON data `{"name": "John", "job": "Developer"}` to `https://reqres.in/api/users`.
 # 3. Modify your script to check if the status code is 201 (Created) before printing the response.
 # 4. (Conceptual) Why is the DELETE method considered "idempotent"?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. GET Request
+# import requests
+# response = requests.get('https://api.github.com')
+# print(response.json())
+
+# 2. POST Request
+# payload = {"name": "John", "job": "Developer"}
+# response = requests.post('https://reqres.in/api/users', json=payload)
+# print(response.json())
+
+# 3. Status Check
+# if response.status_code == 201:
+#     print(response.json())
+
+# 4. Idempotent
+print("Idempotent: Making the same request multiple times has the same effect as making it once (e.g., deleting a resource twice results in the same state: resource is gone).")
+

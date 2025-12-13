@@ -57,3 +57,26 @@ print("""
 # 2. Add a URL pattern in `urls.py` to map `/about/` to the `about` view.
 # 3. In a Django template, how would you display the value of a variable named `username`?
 # 4. Write a loop in Django Template Language to display a list of items: `['Apple', 'Banana', 'Cherry']`.
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. About View
+print("""
+def about(request):
+    return render(request, 'about.html')
+""")
+
+# 2. URL Pattern
+print("path('about/', views.about, name='about')")
+
+# 3. Variable Display
+print("Syntax: {{ username }}")
+
+# 4. Loop
+print("""
+{% for item in items %}
+    <p>{{ item }}</p>
+{% endfor %}
+""")
+

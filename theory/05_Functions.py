@@ -51,3 +51,27 @@ print(f"Length: {len(numbers)}")
 # 2. Write a function `is_even(n)` that returns True if the number is even, otherwise False.
 # 3. Write a function that takes two arguments, `name` and `age`, and prints a message.
 # 4. Use the built-in `max()` function to find the largest number in `[5, 12, 8, 21, 3]`.
+
+# ---------------------------------------------------------
+# Solutions
+# ---------------------------------------------------------
+print("\n--- Practice Solutions ---")
+
+# 1. Square Function
+def square(n):
+    return n * n
+print(f"Square of 4: {square(4)}")
+
+# 2. Is Even Function
+def is_even(n):
+    return n % 2 == 0
+print(f"Is 10 even? {is_even(10)}")
+
+# 3. Name and Age
+def print_details(name, age):
+    print(f"Name: {name}, Age: {age}")
+print_details("Alice", 30)
+
+# 4. Max Function
+nums = [5, 12, 8, 21, 3]
+print(f"Largest number: {max(nums)}")

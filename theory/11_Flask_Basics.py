@@ -47,3 +47,23 @@ except ImportError:
 # 2. Modify the home route to return an HTML `<h1>Welcome</h1>` tag instead of plain text.
 # 3. (Conceptual) What is the purpose of a virtual environment?
 # 4. (Conceptual) How do you enable debug mode in Flask?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. About Route
+# @app.route('/about')
+# def about():
+#     return "About Page"
+
+# 2. HTML Response
+# @app.route('/')
+# def home():
+#     return "<h1>Welcome</h1>"
+
+# 3. Virtual Environment
+print("Purpose: To create isolated spaces for projects to avoid dependency conflicts.")
+
+# 4. Debug Mode
+print("Enable debug: app.run(debug=True)")
+

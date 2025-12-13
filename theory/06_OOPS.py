@@ -73,3 +73,61 @@ print(f"\nAbstraction Area: {c.area()}")
 # 2. Create a class `BankAccount` with a private attribute `_balance`. Add methods to deposit and withdraw money.
 # 3. Create a base class `Vehicle` and a derived class `Bike` that inherits from `Vehicle`.
 # 4. Demonstrate polymorphism by creating two classes `Bird` and `Airplane` that both have a `fly()` method.
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Person Class
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p = Person("John", 25)
+print(f"Person: {p.name}, Age: {p.age}")
+
+# 2. BankAccount
+class BankAccount:
+    def __init__(self, balance):
+        self._balance = balance  # Protected/Private convention
+
+    def deposit(self, amount):
+        self._balance += amount
+        print(f"Deposited {amount}. New Balance: {self._balance}")
+
+    def withdraw(self, amount):
+        if amount <= self._balance:
+            self._balance -= amount
+            print(f"Withdrew {amount}. New Balance: {self._balance}")
+        else:
+            print("Insufficient funds")
+
+acc = BankAccount(100)
+acc.deposit(50)
+acc.withdraw(30)
+
+# 3. Vehicle and Bike
+class Vehicle:
+    def drive(self):
+        print("Vehicle is moving")
+
+class Bike(Vehicle):
+    def drive(self):
+        print("Bike is riding")
+
+b = Bike()
+b.drive()
+
+# 4. Polymorphism
+class Bird:
+    def fly(self):
+        return "Bird flying"
+
+class Airplane:
+    def fly(self):
+        return "Airplane flying"
+
+flyers = [Bird(), Airplane()]
+for f in flyers:
+    print(f.fly())
+

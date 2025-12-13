@@ -75,3 +75,27 @@ print(x)
 # 2. Write a PyTest function `test_sub()` to test a `subtract(a, b)` function.
 # 3. (Conceptual) Which Python library is commonly used to connect to a MySQL database?
 # 4. (Conceptual) What is the difference between SQL (like MySQL) and NoSQL (like MongoDB)?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Git Status
+print("Git command: git status")
+
+# 2. PyTest Function
+def subtract(a, b):
+    return a - b
+
+def test_sub():
+    assert subtract(10, 5) == 5
+    print("test_sub Passed!")
+
+test_sub()
+
+# 3. MySQL Library
+print("MySQL Library: mysql-connector-python")
+
+# 4. SQL vs NoSQL
+print("SQL: Relational, table-based, fixed schema (e.g., MySQL).")
+print("NoSQL: Non-relational, document-based, dynamic schema (e.g., MongoDB).")
+

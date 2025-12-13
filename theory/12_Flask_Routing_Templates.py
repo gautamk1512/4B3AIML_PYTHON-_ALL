@@ -61,3 +61,27 @@ except ImportError:
 # 2. Create a contact form with fields "Email" and "Message". Handle the POST request to print the data.
 # 3. (Conceptual) What is the difference between GET and POST methods?
 # 4. (Conceptual) Where should you place your CSS files in a Flask project?
+
+# Solutions
+print("\n--- Practice Solutions ---")
+
+# 1. Square Route
+# @app.route('/square/<int:number>')
+# def square(number):
+#     return f"Square of {number} is {number**2}"
+
+# 2. Contact Form
+# @app.route('/contact', methods=['GET', 'POST'])
+# def contact():
+#     if request.method == 'POST':
+#         email = request.form['email']
+#         msg = request.form['message']
+#         return f"Sent from {email}: {msg}"
+#     return '<form method="post"><input name="email"><input name="message"><input type="submit"></form>'
+
+# 3. GET vs POST
+print("GET: Retrieve data (params in URL). POST: Submit data (body).")
+
+# 4. CSS Location
+print("CSS files go in the 'static' folder.")
+
